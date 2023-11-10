@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="static/img/deveshi.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Deviransh Enterprise</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+        <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="{{url_for('static',filename='css/linearicons.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/magnific-popup.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/nice-select.css')}}">							
+        <link rel="stylesheet" href="{{url_for('static',filename='css/animate.min.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/owl.carousel.css')}}">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    </head>
+    <body>	
+          <header id="header" id="home">
+              <div class="header-top">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+                              <a href="tel:+91-90990 99738">+91-90990 99738</a>
+                              <a href="mailto:deviransh@gmail.com">deviransh@gmail.com</a>					  
+                          </div>
+                          <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+                              <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                              </ul>			
+                          </div>
+                      </div>			  					
+                  </div>
+            </div>
+            <div class="container main-menu">
+                <div class="row align-items-center justify-content-between d-flex">
+                    <div id="logo">
+                        <style>
+                            .fancy-link {
+                            display: inline-block;
+                            text-decoration: none;
+                            position: relative;
+                            }
+                        
+                            .fancy-link::before {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 0;
+                            height: 0;
+                            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+                            z-index: 1;
+                            border-radius: 10px;
+                            }
+                        
+                            .fancy-link img {
+                            display: block;
+                            border-radius: 8px;
+                            position: relative;
+                            z-index: 2;
+                            max-width: 100%; /* Ensure the image scales to fit its container */
+                            height: auto;
+                            }
+                        
+                            /* Apply this style for screens smaller than a specific width (e.g., 768px) */
+                            @media (max-width: 768px) {
+                            .fancy-link img {
+                                border-radius: 12px; /* Adjust the border radius for smaller screens */
+                                max-width: 100%;
+                                height: 80%;
+                            }
+                            }
+                        </style>
+                        
+                        <a href="index.html" class="fancy-link">
+                            <img src="{{url_for('static', filename='img/Deviransh_logo.png')}}" alt="" title="">
+                        </a>
+                    </div>
+                  <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                      <li class="menu-active"><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="services.html">Products & Services</a></li>
+                      <li><a href="projects.html">Projects</a></li>	          					          		          
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav><!-- #nav-menu-container -->		    		
+                </div>
+            </div>
+          </header><!-- #header -->
+
+        <!-- start banner Area -->
+        <section class="banner-area relative" id="home">	
+            <div class="overlay overlay-bg"></div>
+            <div class="container">				
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="about-content col-lg-12">
+                        <h1 class="text-white">
+                            Project Details				
+                        </h1>	 
+                        <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="projects-details.html"> Project Details</a></p>
+                    </div>	
+                </div>
+            </div>
+        </section>
+        <!-- End banner Area -->	
+
+        <!-- Start project-details Area -->
+        <section class="project-details-area section-gap">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 project-details-left">
+                        <img class="img-fluid" src="{{url_for('static',filename='img/project-details.jpg')}}" alt="">
+                    </div>
+                    <div class="col-lg-6 project-details-right">
+                        <h3 class="pb-20">Tata Promont (Tata Housing)</h3>
+                        <p style="font-family: 'Times New Roman', Times, serif; font-size: 16px; text-align: justify;">
+                            Deviransh Enterprise, a name associated with quality and distinction in the real estate sector, is pleased to have contributed to the Tata Promont project by Tata Housing.
+                        </p>
+                        <div class="social-links mt-30">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>														
+                    </div>
+                    <div class="col-lg-12 project-desc mt-60">
+                        <p style="font-family: 'Times New Roman', Times, serif; font-size: 16px; text-align: justify;">
+                            For this prominent project, we offered a range of interior services, including the installation of ceiling and wall gypsum and partitions. Our team put forth a lot of effort to make sure that every interior design element matched the high criteria established by Tata Housing. Establishing a seamless blend of luxury and utility in this project was a significant challenge. Our experts overcame this difficulty by carefully modifying our gypsum solutions to complement the Tata Promont's upscale look, ensuring maximum usability.
+                            <br>
+                            <br>
+                            As a result, our efforts for the Tata Promont project have improved the quality of life for its people and demonstrated our dedication to completing each project to the highest standard.
+                        </p>
+                    </div>
+                </div>
+            </div>	
+        </section>
+        <!-- End project-details Area -->						
+
+        <!-- start footer Area -->		
+        <style>
+            .footer-area {
+                background-color: #000;
+                color: #fff;
+            }
+        </style>	
+        <footer class="footer-area section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6><b>About Us</b></h6>
+                            <p>
+                                We are dedicated to promoting sustainable <br> growth that has a positive influence on society <br> and the environment.
+                            </p>
+                            <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>								
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <title><b>Newsletter Signup</b></title>
+                        <style>
+                            .message {
+                            color: green;
+                            font-weight: bold;
+                            }
+                            .error {
+                            color: red;
+                            font-weight: bold;
+                            }
+                        </style>
+                        <form action="news" method="post">
+                            <h6><b>Subscribe to Our Newsletter</b></h6>
+                            <input type="email" name="email" placeholder="Enter your email" class="common-input mb-10 form-control" required style="width: 300px" required>
+                            <button type="submit" class="genric-btn primary circle">Subscribe</button>
+                        </form> 
+                        <br>
+                    </div>						
+                    <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                        <div class="single-footer-widget">
+                            <h6><b>Follow Us</b></h6>
+                            <p>Let us be social</p>
+                            <div class="footer-social d-flex align-items-center">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>							
+                </div>
+            </div>
+        </footer>	
+			<!-- End footer Area -->
+
+        <script src="{{url_for('static',filename='js/vendor/jquery-2.2.4.min.js')}}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="{{url_for('static',filename='js/vendor/bootstrap.min.js')}}"></script>			
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+          <script src="{{url_for('static',filename='js/easing.min.js')}}"></script>			
+        <script src="{{url_for('static',filename='js/hoverIntent.js')}}"></script>
+        <script src="{{url_for('static',filename='js/superfish.min.js')}}"></script>	
+        <script src="{{url_for('static',filename='js/jquery.ajaxchimp.min.js')}}"></script>
+        <script src="{{url_for('static',filename='js/jquery.magnific-popup.min.js')}}"></script>	
+        <script src="{{url_for('static',filename='js/owl.carousel.min.js')}}"></script>						
+        <script src="{{url_for('static',filename='js/jquery.nice-select.min.js')}}"></script>							
+        <script src="{{url_for('static',filename='js/mail-script.js')}}"></script>	
+        <script src="{{url_for('static',filename='js/main.js')}}"></script>	
+    </body>
+</html>
